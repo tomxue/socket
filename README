@@ -1,0 +1,18 @@
+Compile btpc.c in Ubuntu and compile btN900.c in scratchbox.
+
+scp btN900 to N900 and run it like below:
+	Nokia-N900:~# ./btN900 
+	Creating socket...
+	success!
+	Binding socket...
+	success!
+	Listen... requested!
+	Accepting...
+	OK!
+	accepted connection from 88:9F:FA:F3:F5:0A 
+	received[hello!]
+
+Run btpc in Ubuntu like below:
+	$ ./btpc C8:97:9F:E3:28:44
+	connectting...
+	scuess!
